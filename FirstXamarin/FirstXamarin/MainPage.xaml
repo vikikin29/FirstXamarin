@@ -3,19 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FirstXamarin"
              x:Class="FirstXamarin.MainPage">
+    <StackLayout>
 
-
-    <Label x:Name="Label"
-           Text="Sample Label"
-           
+        <Label 
+           x:Name="label"
+           Text="Palindrome App"
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
-    
-    <Entry x:Name="Entry"
+
+        <Entry
+           x:Name="entry"
            Placeholder="Sample Text" 
-           TextColor="RoyalBlue" 
-           
-           />
+           TextColor="RoyalBlue"/>
+
+        <Button
+           x:Name="button"           
+           Text="Add"
+           Clicked="OnButtonClicked"
+            />
+
+        <Label 
+           x:Name="label2"
+           Text="Sample Text"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+    </StackLayout>
 
 
 </ContentPage>
