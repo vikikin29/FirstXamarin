@@ -12,6 +12,8 @@ namespace FirstXamarin
         public MainPage()
         {
             InitializeComponent();
+
         }
+        
     }
 }

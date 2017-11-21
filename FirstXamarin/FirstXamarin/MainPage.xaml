@@ -4,8 +4,18 @@
              xmlns:local="clr-namespace:FirstXamarin"
              x:Class="FirstXamarin.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
+
+    <Label x:Name="Label"
+           Text="Sample Label"
+           
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+    
+    <Entry x:Name="Entry"
+           Placeholder="Sample Text" 
+           TextColor="RoyalBlue" 
+           
+           />
+
 
 </ContentPage>
